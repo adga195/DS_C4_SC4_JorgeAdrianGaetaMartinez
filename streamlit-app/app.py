@@ -19,7 +19,7 @@ with pageHeader:
     st.text("Reto C4SC4: Conociendo el desempeño del Área de Marketing de Socialize your knowledge." \
     "\nDashboard interactivo para visualizar y analizar los datos de desempeño de los colaboradores.")
 with pageLogo:
-    st.image("./logo-c4sc4.png", width=512)
+    st.image("./streamlit-app/logo-c4sc4.png", width=256)
 
 # Función para cargar datos
 df = pd.read_csv("employee_data.csv")
