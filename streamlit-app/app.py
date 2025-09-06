@@ -22,7 +22,7 @@ with pageLogo:
     st.image("./streamlit-app/logo-c4sc4.png", width=256)
 
 # Función para cargar datos
-df = pd.read_csv("./streamlit-app/employee_data.csv")
+df = pd.read_csv("./streamlit-app/emp_data.csv")
 
 st.divider()
 
